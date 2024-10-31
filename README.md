@@ -45,7 +45,7 @@
 ### Pros:
 - rg40xx, rg35xx and rg28xx series support
 - EmulationStation frontend
-- Bluetooth support for both controllers and earphones
+- Bluetooth support for both controllers and earphones (buggy)
 - RetroAchivements (a bit buggy)
 - Built-in scraper
 - Wifi support (no profiles)
