@@ -43,6 +43,7 @@
 - Built-in scraper
 - Wifi support (no profiles)
 - Partial PortMaster support (only 64bit)
+- HDMI support
 - Theme support (only several Emulation Station themes)
 - Samba support for file sharing
 - Support 2nd card setup
