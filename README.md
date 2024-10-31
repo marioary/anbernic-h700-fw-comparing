@@ -49,7 +49,7 @@
 - RetroAchivements (a bit buggy)
 - Built-in scraper
 - Wifi support (no profiles)
-- Partial PortMaster support (only 64bit)
+- Partial PortMaster support (only 64 bit)
 - HDMI support
 - Theme support (only several EmulationStation themes)
 - Samba support for file sharing
