@@ -15,11 +15,13 @@
 - RetroAchivements
 - HDMI support
 - Has Archive Manager app (basic app, patch, theme, backup etc. installer)
+- Has a lot of pre-installed themes
 - A lot of community themes
 - Better battery management
 - Better sleep options/functions
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
+- Has a lot of pre-installed apps
 - Has a lot of community apps on Discord
 - Has roadmap for future releases
 - Multilingual
@@ -142,13 +144,15 @@
 - Frequent updates
 - All stock os features & options
 - Theming support
+- Full PortMaster support
+- RetroAchivements
 - Wifi support (no profiles)
 - Bluetooth support (only for controllers)
 - HDMI support
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
-- Full PortMaster support
-- RetroAchivements
 - Support 2nd card setup
+- Has a lot of pre-installed apps
+- Has a lot of pre-installed themes
 ### Cons:
 - No source code
 - Only English and Chinese
