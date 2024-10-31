@@ -154,7 +154,6 @@
 - More frequent updates
 - All stock os features & options
 - Theming support
-- Full PortMaster support
 - RetroAchivements
 - Wifi support (no profiles)
 - Bluetooth support (only for controllers)
