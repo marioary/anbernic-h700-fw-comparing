@@ -3,7 +3,7 @@
 *last update: 31/10/2024*
 
 ## [muOS](https://muos.dev/)  
-### Status:  
+### Info:  
 - Status: Stable  
 - Last update: 12/10/2024  
 - [Releases](https://dl.muos.dev/RELEASE/)  
@@ -13,7 +13,7 @@
 
 -------------------- 
 ## [knulli (batocera)](https://knulli.org/)
-### Status:
+### Info:
 - Status: Stable
 - Last update: 21/07/2024
 - [Releases](https://github.com/knulli-cfw/distribution/releases)
@@ -23,7 +23,7 @@
 
 -------------------- 
 ## [MinUI](https://github.com/shauninman/MinUI/blob/main/README.md)
-### Status:
+### Info:
 - Status: Stable
 - Last update: 28/10/2024
 - [Releases](https://github.com/shauninman/MinUI/releases)
@@ -33,7 +33,7 @@
   
 --------------------  
 ## [ROCKNIX (JELOS/SteamFork)](https://github.com/loki666/ROCKNIX/blob/dev/README.md)
-### Status:
+### Info:
 - Status: WIP
 - Last update: 28/10/2024
 - [Releases](https://github.com/loki666/ROCKNIX/releases)
@@ -43,7 +43,7 @@
 
 -------------------- 
 ## [GarlicOS](https://www.patreon.com/blackseraph)
-### Status:
+### Info:
 - Status: WIP
 - Last update: 04/05/2024
 - [Releases](https://github.com/GarlicOS/buildroot/releases/)
@@ -53,7 +53,7 @@
 
 -------------------- 
 ## [cbepx-me modded stock os](https://github.com/cbepx-me/Anbernic-H700-RG-xx-StockOS-Modification/blob/main/README.md)
-### Status:
+### Info:
 - Status: Stable
 - Last update: 23/10/2024
 - [Releases](https://github.com/cbepx-me/Anbernic-H700-RG-xx-StockOS-Modification/releases)
@@ -63,7 +63,7 @@
 
 -------------------- 
 ## [stock](https://win.anbernic.com/download_data/403.html)
-### Status:
+### Info:
 - Status: Stable
 - Last update: xx/10/2024
 - [Releases](https://win.anbernic.com/download_data/403.html)
