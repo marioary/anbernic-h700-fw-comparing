@@ -95,7 +95,7 @@
 - Only English
   
 --------------------  
-## [ROCKNIX (JELOS/SteamFork)](https://github.com/loki666/ROCKNIX/blob/dev/README.md)
+## [ROCKNIX](https://github.com/loki666/ROCKNIX/blob/dev/README.md)
 ### Info:
 - Status: WIP
 - Last update: 28/10/2024
