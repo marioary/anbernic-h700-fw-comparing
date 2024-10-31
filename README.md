@@ -80,6 +80,7 @@
 - No community apps
 - Less frequent updates
 - No support for 2nd card setup
+- Only English
   
 --------------------  
 ## [ROCKNIX (JELOS/SteamFork)](https://github.com/loki666/ROCKNIX/blob/dev/README.md)
@@ -89,7 +90,27 @@
 - [Releases](https://github.com/loki666/ROCKNIX/releases)
 - [Source](https://github.com/loki666/ROCKNIX/)
 ### Pros:
+- Try to use mainline Linux kernel
+- EmulationStation frontend
+- ? Bluetooth support for both controllers and earphones
+- ? RetroAchivements
+- Built-in scraper
+- ? Wifi support (no profiles)
+- ? Partial PortMaster support (only 64bit)
+- ? HDMI support
+- Theme support (only several Emulation Station themes)
+- Samba support for file sharing
+- Support 2nd card setup
+- Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
+- Has ability to do dirty update
+- Has a lot of customization options
+- Multilingual
 ### Cons:
+- Longer boot times
+- Less frequent updates
+- No OTA updates (has option but not works)
+- No community themes (Only [es-theme-knulli](https://github.com/symbuzzer/es-theme-knulli))
+- No community apps
 
 -------------------- 
 ## [GarlicOS](https://www.patreon.com/blackseraph)
