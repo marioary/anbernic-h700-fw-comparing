@@ -19,6 +19,8 @@
 - Better sleep options/functions
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
+- Has a lot of community apps on Discord
+- Multilingual
 ### Cons:
 - No bluetooth
 - Less frequent public updates
@@ -42,12 +44,16 @@
 - Partial PortMaster support (only 64bit)
 - Theme support
 - Samba support for file sharing
+- Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
-- A lot of customization options
+- Has a lot of customization options
+- Multilingual
 ### Cons:
 - Longer boot times
 - Less frequent public updates
-- No OTA update
+- No OTA update (Has option but not works)
+- No community themes (Only (es-theme-knulli)[https://github.com/symbuzzer/es-theme-knulli])
+- No community apps
 
 -------------------- 
 ## [MinUI](https://github.com/shauninman/MinUI/blob/main/README.md)
