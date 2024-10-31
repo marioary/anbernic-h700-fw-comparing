@@ -52,7 +52,7 @@
 - Longer boot times
 - Less frequent public updates
 - No OTA update (Has option but not works)
-- No community themes (Only (es-theme-knulli)[https://github.com/symbuzzer/es-theme-knulli])
+- No community themes (Only [es-theme-knulli](https://github.com/symbuzzer/es-theme-knulli))
 - No community apps
 
 -------------------- 
