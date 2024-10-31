@@ -9,7 +9,7 @@
 - [Releases](https://dl.muos.dev/RELEASE/)  
 - [Source](https://github.com/MustardOS)  
 ### Pros:
-- Fast boot time
+- Fast boot times
 - Wifi with profile support
 - Full PortMaster support
 - HDMI support
@@ -20,6 +20,7 @@
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
 - Has a lot of community apps on Discord
+- Has roadmap for future releases
 - Multilingual
 ### Cons:
 - No bluetooth
@@ -66,7 +67,7 @@
 - [Releases](https://github.com/shauninman/MinUI/releases)
 - [Source](https://github.com/shauninman/MinUI)
 ### Pros:
-- Fast boot time
+- Fast boot times
 - Minimal interface with minimal setup/options
 ### Cons:
 - Less support for emulation of game consoles
@@ -90,7 +91,7 @@
 - [Releases](https://github.com/loki666/ROCKNIX/releases)
 - [Source](https://github.com/loki666/ROCKNIX/)
 ### Pros:
-- Try to use mainline Linux kernel
+- Trying to use mainline Linux kernel
 - EmulationStation frontend
 - ? Bluetooth support for both controllers and earphones
 - ? RetroAchivements
@@ -120,7 +121,12 @@
 - [Releases](https://github.com/GarlicOS/buildroot/releases/)
 - [Source](https://github.com/GarlicOS)
 ### Pros:
-### Cons:
+- Able to install as 2nd os with stock os
+- Able to boot with stock os
+### Cons
+- Very slow development
+- Less frequent updates
+- Has known issues
 
 -------------------- 
 ## [cbepx-me modded stock os](https://github.com/cbepx-me/Anbernic-H700-RG-xx-StockOS-Modification/blob/main/README.md)
