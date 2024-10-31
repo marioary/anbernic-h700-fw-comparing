@@ -37,12 +37,13 @@
 - [Releases](https://github.com/knulli-cfw/distribution/releases)
 - [Source](https://github.com/knulli-cfw)
 ### Pros:
+- EmulationStation frontend
 - Bluetooth support for both controllers and earphones
 - RetroAchivements (a bit buggy)
 - Built-in scraper
 - Wifi support (no profiles)
 - Partial PortMaster support (only 64bit)
-- Theme support
+- Theme support (only several Emulation Station themes)
 - Samba support for file sharing
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
