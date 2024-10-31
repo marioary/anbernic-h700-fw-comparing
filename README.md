@@ -122,7 +122,7 @@
 - Longer boot times
 - Less frequent updates
 - No OTA updates (has option but not works)
-- No community themes (Only [es-theme-knulli](https://github.com/symbuzzer/es-theme-knulli))
+- No community themes
 - No community apps
 
 -------------------- 
