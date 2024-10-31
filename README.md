@@ -150,7 +150,7 @@
 - [Releases](https://github.com/cbepx-me/Anbernic-H700-RG-xx-StockOS-Modification/releases)
 - Source: -
 ### Pros:
-- Full support for rg40xx, rg35xx, rg28xx and rg cubexx series support
+- Full support for rg40xx, rg35xx, rg28xx and rg cubexx series
 - More frequent updates
 - All stock os features & options
 - Theming support
@@ -177,7 +177,7 @@
 - [Releases](https://win.anbernic.com/download_data/403.html)
 - Source: -
 ### Pros:
-- Full support for rg40xx, rg35xx, rg28xx and rg cubexx series support
+- Full support for rg40xx, rg35xx, rg28xx and rg cubexx series
 - Bundled with a lot of games
 - RetroAchivements
 - Wifi support (no profiles)
