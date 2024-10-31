@@ -9,7 +9,21 @@
 - [Releases](https://dl.muos.dev/RELEASE/)  
 - [Source](https://github.com/MustardOS)  
 ### Pros:
+- Fast boot time
+- Wifi with profile support
+- Full PortMaster support
+- Has Archive Manager app (app, patch, theme etc. isntaller)
+- A lot of community themes
+- Better battery management
+- Better sleep options/functions
+- Support 2nd card setup
+- Has a lot of connection & file sharing options (syncthing, sftp etc.)
 ### Cons:
+- No bluetooth
+- No OTA update
+- Must do clean install when major updates
+- No built-in scraping
+- No RetroAchivements
 
 -------------------- 
 ## [knulli (batocera)](https://knulli.org/)
