@@ -12,8 +12,9 @@
 - Fast boot times
 - Wifi with profile support
 - Full PortMaster support
+- RetroAchivements
 - HDMI support
-- Has Archive Manager app (app, patch, theme etc. isntaller)
+- Has Archive Manager app (basic app, patch, theme, backup etc. installer)
 - A lot of community themes
 - Better battery management
 - Better sleep options/functions
@@ -28,7 +29,6 @@
 - No OTA updates
 - Must do clean install when major updates
 - No built-in scraping
-- No RetroAchivements
 
 -------------------- 
 ## [knulli (batocera)](https://knulli.org/)
@@ -45,7 +45,7 @@
 - Wifi support (no profiles)
 - Partial PortMaster support (only 64bit)
 - HDMI support
-- Theme support (only several Emulation Station themes)
+- Theme support (only several EmulationStation themes)
 - Samba support for file sharing
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
@@ -69,6 +69,7 @@
 ### Pros:
 - Fast boot times
 - Minimal interface with minimal setup/options
+- Has ability to do dirty update
 ### Cons:
 - Less support for emulation of game consoles
 - No wifi
@@ -80,7 +81,7 @@
 - No theming
 - No community apps
 - Less frequent updates
-- No support for 2nd card setup
+- ? No support for 2nd card setup
 - Only English
   
 --------------------  
@@ -99,7 +100,7 @@
 - ? Wifi support (no profiles)
 - ? Partial PortMaster support (only 64bit)
 - ? HDMI support
-- Theme support (only several Emulation Station themes)
+- Theme support (only several EmulationStation themes)
 - Samba support for file sharing
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
@@ -123,10 +124,12 @@
 ### Pros:
 - Able to install as 2nd os with stock os
 - Able to boot with stock os
+- ?
 ### Cons
 - Very slow development
 - Less frequent updates
 - Has known issues
+- ?
 
 -------------------- 
 ## [cbepx-me modded stock os](https://github.com/cbepx-me/Anbernic-H700-RG-xx-StockOS-Modification/blob/main/README.md)
@@ -136,7 +139,19 @@
 - [Releases](https://github.com/cbepx-me/Anbernic-H700-RG-xx-StockOS-Modification/releases)
 - Source: -
 ### Pros:
+- Frequent updates
+- All stock os features & options
+- Theming support
+- Wifi support (no profiles)
+- Bluetooth support (only for controllers)
+- HDMI support
+- Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
+- Full PortMaster support
+- RetroAchivements
+- Support 2nd card setup
 ### Cons:
+- No source code
+- Only English and Chinese
 
 -------------------- 
 ## [stock](https://win.anbernic.com/download_data/403.html)
