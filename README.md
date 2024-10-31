@@ -59,7 +59,7 @@
 - Has a lot of customization options
 - Multilingual
 ### Cons:
-- No support for rg40xx v, h and rg cubexx series
+- No support for rg cubexx series
 - Has analogue stick cardinal snapping issue
 - Longer boot times
 - Less frequent public updates
