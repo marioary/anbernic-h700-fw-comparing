@@ -166,6 +166,7 @@
 ### Cons:
 - No source code
 - Has analogue stick cardinal snapping issue
+- Partial PortMaster support
 - Only English and Chinese
 
 -------------------- 
@@ -178,7 +179,6 @@
 ### Pros:
 - Full support for rg40xx, rg35xx, rg28xx and rg cubexx series support
 - Bundled with a lot of games
-- Full PortMaster support
 - RetroAchivements
 - Wifi support (no profiles)
 - Bluetooth support (only for controllers)
@@ -189,6 +189,7 @@
 - No source code
 - Has analogue stick cardinal snapping issue
 - Less frequent updates
+- Partial PortMaster support
 - No theming
 - No any connection & file sharing options (syncthing, ftp, ssh etc.)
 - Only English and Chinese
