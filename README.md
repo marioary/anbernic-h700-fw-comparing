@@ -12,14 +12,16 @@
 - Fast boot time
 - Wifi with profile support
 - Full PortMaster support
+- HDMI support
 - Has Archive Manager app (app, patch, theme etc. isntaller)
 - A lot of community themes
 - Better battery management
 - Better sleep options/functions
 - Support 2nd card setup
-- Has a lot of connection & file sharing options (syncthing, sftp etc.)
+- Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
 ### Cons:
 - No bluetooth
+- Less frequent public updates
 - No OTA update
 - Must do clean install when major updates
 - No built-in scraping
@@ -33,7 +35,19 @@
 - [Releases](https://github.com/knulli-cfw/distribution/releases)
 - [Source](https://github.com/knulli-cfw)
 ### Pros:
+- Bluetooth support for both controllers and earphones
+- RetroAchivements (a bit buggy)
+- Built-in scraper
+- Wifi support (no profiles)
+- Partial PortMaster support (only 64bit)
+- Theme support
+- Samba support for file sharing
+- Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
+- A lot of customization options
 ### Cons:
+- Longer boot times
+- Less frequent public updates
+- No OTA update
 
 -------------------- 
 ## [MinUI](https://github.com/shauninman/MinUI/blob/main/README.md)
