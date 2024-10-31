@@ -47,6 +47,7 @@
 - Samba support for file sharing
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
+- Has ability to do dirty update
 - Has a lot of customization options
 - Multilingual
 ### Cons:
