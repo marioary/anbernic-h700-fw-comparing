@@ -24,7 +24,7 @@
 ### Cons:
 - No bluetooth
 - Less frequent public updates
-- No OTA update
+- No OTA updates
 - Must do clean install when major updates
 - No built-in scraping
 - No RetroAchivements
@@ -54,7 +54,7 @@
 ### Cons:
 - Longer boot times
 - Less frequent public updates
-- No OTA update (Has option but not works)
+- No OTA updates (has option but not works)
 - No community themes (Only [es-theme-knulli](https://github.com/symbuzzer/es-theme-knulli))
 - No community apps
 
@@ -66,7 +66,20 @@
 - [Releases](https://github.com/shauninman/MinUI/releases)
 - [Source](https://github.com/shauninman/MinUI)
 ### Pros:
+- Fast boot time
+- Minimal interface with minimal setup/options
 ### Cons:
+- Less support for emulation of game consoles
+- No wifi
+- No bluetooth
+- No PortMaster support
+- No HDMI support
+- No built-in scraper
+- No OTA updates
+- No theming
+- No community apps
+- Less frequent updates
+- No support for 2nd card setup
   
 --------------------  
 ## [ROCKNIX (JELOS/SteamFork)](https://github.com/loki666/ROCKNIX/blob/dev/README.md)
