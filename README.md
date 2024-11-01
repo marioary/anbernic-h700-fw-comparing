@@ -171,6 +171,7 @@
 - No source code
 - Has analogue stick cardinal snapping issue
 - Partial PortMaster support
+- No built-in scraping
 - Only English and Chinese
 
 -------------------- 
@@ -198,8 +199,9 @@
 - Has analogue stick cardinal snapping issue
 - Less frequent updates
 - Partial PortMaster support
+- No built-in scraping
 - No theming
-- No any connection & file sharing options out of box (syncthing, ftp, ssh etc.) (unless added using user apps)
+- No any connection & file sharing options out of box (syncthing, ftp, ssh etc.)
 - Only English and Chinese
   
 -------------------- 
