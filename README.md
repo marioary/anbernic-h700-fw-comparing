@@ -49,6 +49,7 @@
 - RetroAchievements (a bit buggy)
 - Built-in scraper
 - Wifi support (no profiles)
+- Supports changing hostname
 - Partial PortMaster support (only 64 bit)
 - HDMI support
 - Theme support (only several EmulationStation themes)
@@ -56,7 +57,11 @@
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
 - Has ability to do dirty update
+- Can format other SDcards and install Knulli for various other consoles.
+- Powersaving modes
+- Overclocking (and underclocking) presets: 480MHz, 720MHz, 1200, 1296, 1416, 1512MHz
 - Has a lot of customization options
+- Security support, Seeting ssh user password and password protect accessing network shares.
 - Multilingual
 ### Cons:
 - No support for rg cubexx series
@@ -194,7 +199,7 @@
 - Less frequent updates
 - Partial PortMaster support
 - No theming
-- No any connection & file sharing options (syncthing, ftp, ssh etc.) (unless added using user apps)
+- No any connection & file sharing options out of box (syncthing, ftp, ssh etc.) (unless added using user apps)
 - Only English and Chinese
   
 -------------------- 
