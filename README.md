@@ -13,7 +13,7 @@
 - Fast boot times
 - Wifi with profile support
 - Full PortMaster support (both 64 and 32 bit)
-- RetroAchivements
+- RetroAchievements
 - HDMI support
 - Fixed analogue stick cardinal snapping issue
 - Has Archive Manager app (basic app, patch, theme, backup etc. installer)
@@ -46,7 +46,7 @@
 - rg40xx, rg35xx and rg28xx series support
 - EmulationStation frontend
 - Bluetooth support for both controllers and earphones (buggy)
-- RetroAchivements (a bit buggy)
+- RetroAchievements (a bit buggy)
 - Built-in scraper
 - Wifi support (no profiles)
 - Partial PortMaster support (only 64 bit)
@@ -63,7 +63,7 @@
 - Has analogue stick cardinal snapping issue
 - Longer boot times
 - Less frequent public updates
-- No OTA updates (has option but not works)
+- No OTA updates (has the option but does not work)
 - No community themes (Only [es-theme-knulli](https://github.com/symbuzzer/es-theme-knulli))
 - No community apps
 
@@ -105,7 +105,7 @@
 - Trying to use mainline Linux kernel
 - EmulationStation frontend
 - ? Bluetooth support for both controllers and earphones
-- ? RetroAchivements
+- ? RetroAchievements
 - Built-in scraper
 - ? Wifi support (no profiles)
 - ? Partial PortMaster support (only 64bit)
@@ -154,7 +154,7 @@
 - More frequent updates
 - All stock os features & options
 - Theming support
-- RetroAchivements
+- RetroAchievements
 - Wifi support (no profiles)
 - Bluetooth support (only for controllers)
 - HDMI support
@@ -178,19 +178,23 @@
 ### Pros:
 - Full support for rg40xx, rg35xx, rg28xx and rg cubexx series
 - Bundled with a lot of games
-- RetroAchivements
+- RetroAchievements
 - Wifi support (no profiles)
 - Bluetooth support (only for controllers)
 - HDMI support
 - Support 2nd card setup
 - Has a lot of pre-installed apps
+- Supports adding user apps, by wich adding new functionality outside the main os.
+  - ssh, sftp, scp support trough user app
+  - linux terminal app
+  - m8c a client app for a headless m8 music tracker   
 ### Cons:
 - No source code
 - Has analogue stick cardinal snapping issue
 - Less frequent updates
 - Partial PortMaster support
 - No theming
-- No any connection & file sharing options (syncthing, ftp, ssh etc.)
+- No any connection & file sharing options (syncthing, ftp, ssh etc.) (unless added using user apps)
 - Only English and Chinese
   
 -------------------- 
