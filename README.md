@@ -57,7 +57,7 @@
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
 - Has ability to do dirty update
-- Can format other SDcards and install Knulli for various other concoles.
+- Can format other SDcards and install Knulli for various other consoles.
 - Powersaving modes
 - Overclocking (and underclocking) presets: 480MHz, 720MHz, 1200, 1296, 1416, 1512MHz
 - Has a lot of customization options
@@ -195,7 +195,7 @@
 - Less frequent updates
 - Partial PortMaster support
 - No theming
-- No any connection & file sharing options (syncthing, ftp, ssh etc.)
+- No any connection & file sharing options out of box (syncthing, ftp, ssh etc.)
 - Only English and Chinese
   
 -------------------- 
