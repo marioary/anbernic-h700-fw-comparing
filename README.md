@@ -61,7 +61,7 @@
 - Powersaving modes
 - Overclocking (and underclocking) presets: 480MHz, 720MHz, 1200, 1296, 1416, 1512MHz
 - Has a lot of customization options
-- Security support, Seeting ssh user password and password protect accessing network shares.
+- Security features like setting ssh user password and password protect accessing network shares.
 - Multilingual
 ### Cons:
 - No support for rg cubexx series
@@ -190,10 +190,7 @@
 - HDMI support
 - Support 2nd card setup
 - Has a lot of pre-installed apps
-- Supports adding user apps, by wich adding new functionality outside the main os.
-  - ssh, sftp, scp support trough user app
-  - linux terminal app
-  - m8c a client app for a headless m8 music tracker   
+- Has a lot of 3rd party apps like terminal, ssh, sftp, scp etc
 ### Cons:
 - No source code
 - Has analogue stick cardinal snapping issue
