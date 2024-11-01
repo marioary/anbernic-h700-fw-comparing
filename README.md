@@ -34,6 +34,7 @@
 - No OTA updates
 - Must do clean install when major updates
 - No built-in scraping
+- No searching games
 
 -------------------- 
 ## [knulli (batocera)](https://knulli.org/)
