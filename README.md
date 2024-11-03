@@ -1,6 +1,6 @@
 # Regularly updated list of firmware compare for Anbernic H700 devices
 
-*last update: 01/11/2024*
+*last update: 03/11/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
