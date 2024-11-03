@@ -88,13 +88,13 @@
 - RetroAchievements (a bit buggy)
 - Built-in scraper
 - Wifi support (no profiles)
-- Supports changing hostname
-- Partial PortMaster support (only 64 bit)
+- Full PortMaster support (both 64 and 32 bit)
 - HDMI support
 - Theme support (only several EmulationStation themes)
 - Samba support for file sharing
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
+- Supports changing hostname
 - Has ability to do dirty update
 - Can format other SDcards and install Knulli for various other consoles.
 - Powersaving modes
