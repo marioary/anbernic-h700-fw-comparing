@@ -201,7 +201,9 @@
 - Bluetooth support (only for controllers)
 - HDMI support
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
+- Better sleep functions
 - Support 2nd card setup
+- Has ability to do dirty update
 - Has a lot of pre-installed apps
 - Has a lot of pre-installed themes
 ### Cons:
@@ -225,6 +227,7 @@
 - Wifi support (no profiles)
 - Bluetooth support (only for controllers)
 - HDMI support
+- Better sleep functions
 - Support 2nd card setup
 - Has a lot of pre-installed apps
 - Has a lot of 3rd party apps like terminal, ssh, sftp, scp etc
@@ -232,6 +235,7 @@
 - No source code
 - Has analogue stick cardinal snapping issue
 - Less frequent updates
+- Must do clean install every update
 - Partial PortMaster support
 - No built-in scraping
 - No theming
