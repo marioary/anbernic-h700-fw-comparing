@@ -74,6 +74,42 @@
 - No community apps
 
 -------------------- 
+## [knulli alpha (batocera)](https://knulli.org/)
+### Info:
+- Status: WIP
+- Last update: 02/11/2024
+- Releases: no public releases
+- [Source](https://github.com/knulli-cfw)
+### Pros:
+- rg40xx, rg35xx, rg28xx, rg cubexx series support
+- EmulationStation frontend
+- Fixed analogue stick cardinal snapping issue
+- Bluetooth support for both controllers and earphones
+- RetroAchievements (a bit buggy)
+- Built-in scraper
+- Wifi support (no profiles)
+- Supports changing hostname
+- Partial PortMaster support (only 64 bit)
+- HDMI support
+- Theme support (only several EmulationStation themes)
+- Samba support for file sharing
+- Support 2nd card setup
+- Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
+- Has ability to do dirty update
+- Can format other SDcards and install Knulli for various other consoles.
+- Powersaving modes
+- Overclocking (and underclocking) presets: 480MHz, 720MHz, 1200, 1296, 1416, 1512MHz
+- Has a lot of customization options
+- Security features like setting ssh user password and password protect accessing network shares.
+- More frequent updates
+- Multilingual
+### Cons:
+- Longer boot times
+- No OTA updates (has the option but does not work)
+- No community themes (Only [es-theme-knulli](https://github.com/symbuzzer/es-theme-knulli))
+- No community apps
+
+-------------------- 
 ## [MinUI](https://github.com/shauninman/MinUI/blob/main/README.md)
 ### Info:
 - Status: Stable
