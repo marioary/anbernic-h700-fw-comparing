@@ -50,17 +50,18 @@
 - RetroAchievements (a bit buggy)
 - Built-in scraper
 - Wifi support (no profiles)
-- Supports changing hostname
 - Partial PortMaster support (only 64 bit)
 - HDMI support
 - Theme support (only several EmulationStation themes)
 - Samba support for file sharing
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
+- Has theme store and users also install themes manually
+- Supports changing hostname
 - Has ability to do dirty update
 - Can format other SDcards and install Knulli for various other consoles.
 - Powersaving modes
-- Overclocking (and underclocking) presets: 480MHz, 720MHz, 1200, 1296, 1416, 1512MHz
+- Overclocking (and underclocking) presets: 480MHz, 720MHz, 1200MHz, 1296MHz, 1416MHz, 1512MHz
 - Has a lot of customization options
 - Security features like setting ssh user password and password protect accessing network shares.
 - Multilingual
@@ -70,7 +71,6 @@
 - Longer boot times
 - Less frequent public updates
 - No OTA updates (has the option but does not work)
-- No community themes (Only [es-theme-knulli](https://github.com/symbuzzer/es-theme-knulli))
 - No community apps
 
 -------------------- 
@@ -94,11 +94,12 @@
 - Samba support for file sharing
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
+- Has theme store and users also install themes manually
 - Supports changing hostname
 - Has ability to do dirty update
 - Can format other SDcards and install Knulli for various other consoles.
 - Powersaving modes
-- Overclocking (and underclocking) presets: 480MHz, 720MHz, 1200, 1296, 1416, 1512MHz
+- Overclocking (and underclocking) presets: 480MHz, 720MHz, 1200MHz, 1296MHz, 1416MHz, 1512MHz
 - Has a lot of customization options
 - Security features like setting ssh user password and password protect accessing network shares.
 - More frequent updates
@@ -106,7 +107,6 @@
 ### Cons:
 - Longer boot times
 - No OTA updates (has the option but does not work)
-- No community themes (Only [es-theme-knulli](https://github.com/symbuzzer/es-theme-knulli))
 - No community apps
 
 -------------------- 
