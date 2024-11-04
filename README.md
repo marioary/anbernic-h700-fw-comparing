@@ -1,6 +1,6 @@
 # Regularly updated list of firmware compare for Anbernic H700 devices
 
-*last update: 03/11/2024*
+*last update: 04/11/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
@@ -83,7 +83,7 @@
 ### Pros:
 - rg40xx, rg35xx, rg28xx, rg cubexx series support
 - EmulationStation frontend
-- Fixed analogue stick cardinal snapping issue
+- Fixed analogue stick cardinal snapping issue (reported to broken some devices)
 - Bluetooth support for both controllers and earphones
 - RetroAchievements (a bit buggy)
 - Built-in scraper
