@@ -77,7 +77,7 @@
 ## [knulli alpha (batocera)](https://knulli.org/)
 ### Info:
 - Status: WIP
-- Last update: 03/11/2024
+- Last update: 07/11/2024
 - Releases: no public releases
 - [Source](https://github.com/knulli-cfw)
 ### Pros:
