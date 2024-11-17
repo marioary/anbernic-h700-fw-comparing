@@ -1,6 +1,6 @@
 # Regularly updated list of firmware compare for Anbernic H700 devices
 
-*last update: 04/11/2024*
+*last update: 17/11/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
@@ -77,15 +77,15 @@
 ## [knulli alpha (batocera)](https://knulli.org/)
 ### Info:
 - Status: WIP
-- Last update: 07/11/2024
+- Last update: 16/11/2024
 - Releases: no public releases
 - [Source](https://github.com/knulli-cfw)
 ### Pros:
 - rg40xx, rg35xx, rg28xx, rg cubexx series support
 - EmulationStation frontend
-- Fixed analogue stick cardinal snapping issue (reported to broken some devices)
+- Fixed analogue stick cardinal snapping issue
 - Bluetooth support for both controllers and earphones
-- RetroAchievements (a bit buggy)
+- RetroAchievements
 - Built-in scraper
 - Wifi support (no profiles)
 - Full PortMaster support (both 64 and 32 bit)
@@ -113,7 +113,7 @@
 ## [MinUI](https://github.com/shauninman/MinUI/blob/main/README.md)
 ### Info:
 - Status: Stable
-- Last update: 28/10/2024
+- Last update: 11/11/2024
 - [Releases](https://github.com/shauninman/MinUI/releases)
 - [Source](https://github.com/shauninman/MinUI)
 ### Pros:
@@ -140,7 +140,7 @@
 ## [ROCKNIX](https://github.com/loki666/ROCKNIX/blob/dev/README.md)
 ### Info:
 - Status: WIP
-- Last update: 28/10/2024
+- Last update: 07/11/2024
 - [Releases](https://github.com/loki666/ROCKNIX/releases)
 - [Source](https://github.com/loki666/ROCKNIX/)
 ### Pros:
