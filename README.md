@@ -1,6 +1,6 @@
 # Regularly updated list of firmware compare for Anbernic H700 devices
 
-Anbernic H700 devices is: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX
+Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX
 
 *last update: 19/11/2024*
 
