@@ -1,6 +1,6 @@
 # Regularly updated list of firmware compare for Anbernic H700 devices
 
-*last update: 17/11/2024*
+*last update: 19/11/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
@@ -140,7 +140,7 @@
 ## [ROCKNIX](https://github.com/loki666/ROCKNIX/blob/dev/README.md)
 ### Info:
 - Status: WIP
-- Last update: 07/11/2024
+- Last update: 19/11/2024
 - [Releases](https://github.com/loki666/ROCKNIX/releases)
 - [Source](https://github.com/loki666/ROCKNIX/)
 ### Pros:
@@ -150,7 +150,7 @@
 - ? RetroAchievements
 - Built-in scraper
 - ? Wifi support (no profiles)
-- ? Partial PortMaster support (only 64bit)
+- ? PortMaster support
 - ? HDMI support
 - ? Fixed analogue stick cardinal snapping issue
 - Theme support (only several EmulationStation themes)
@@ -163,7 +163,7 @@
 ### Cons:
 - Longer boot times
 - Less frequent updates
-- No OTA updates (has option but not works)
+- No OTA updates
 - No community themes
 - No community apps
 
