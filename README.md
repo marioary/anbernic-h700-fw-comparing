@@ -2,7 +2,7 @@
 
 Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX
 
-*last update: 24/11/2024*
+*last update: 25/11/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
@@ -115,13 +115,14 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ## [MinUI](https://github.com/shauninman/MinUI/blob/main/README.md)
 ### Info:
 - Status: Stable
-- Last update: 11/11/2024
+- Last update: 23/11/2024
 - [Releases](https://github.com/shauninman/MinUI/releases)
 - [Source](https://github.com/shauninman/MinUI)
 ### Pros:
 - Full support for rg40xx, rg35xx, rg28xx and rg cubexx series support
 - Fast boot times
 - Minimal interface with minimal setup/options
+- HDMI support
 - More frequent updates
 - Has ability to do dirty update
 ### Cons:
@@ -129,7 +130,6 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - No wifi
 - No bluetooth
 - No PortMaster support
-- No HDMI support
 - ? Has analogue stick cardinal snapping issue
 - No built-in scraper
 - No OTA updates
