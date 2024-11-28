@@ -2,7 +2,7 @@
 
 Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX
 
-*last update: 25/11/2024*
+*last update: 28/11/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
@@ -142,7 +142,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ## [ROCKNIX](https://github.com/loki666/ROCKNIX/blob/dev/README.md)
 ### Info:
 - Status: WIP
-- Last update: 19/11/2024
+- Last update: 28/11/2024
 - [Releases](https://github.com/loki666/ROCKNIX/releases)
 - [Source](https://github.com/loki666/ROCKNIX/)
 ### Pros:
@@ -152,7 +152,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - ? RetroAchievements
 - Built-in scraper
 - ? Wifi support (no profiles)
-- ? PortMaster support
+- PortMaster support
 - ? HDMI support
 - ? Fixed analogue stick cardinal snapping issue
 - Theme support (only several EmulationStation themes)
