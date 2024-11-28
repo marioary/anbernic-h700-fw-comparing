@@ -148,7 +148,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ### Pros:
 - Trying to use mainline Linux kernel
 - EmulationStation frontend
-- ? Bluetooth support for both controllers and earphones
+- Bluetooth support for both controllers and earphones
 - ? RetroAchievements
 - Built-in scraper
 - ? Wifi support (no profiles)
