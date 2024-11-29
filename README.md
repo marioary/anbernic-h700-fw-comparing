@@ -13,7 +13,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ### Pros:
 - rg40xx, rg35xx and rg28xx series support
 - Fast boot times
-- Wifi with profile support
+- Wifi with profiles and WPA3 support
 - Full PortMaster support (both 64 and 32 bit)
 - RetroAchievements
 - HDMI support
@@ -51,7 +51,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Bluetooth support for both controllers and earphones (buggy)
 - RetroAchievements (a bit buggy)
 - Built-in scraper
-- Wifi support (no profiles)
+- Wifi support
 - Partial PortMaster support (only 64 bit)
 - HDMI support
 - Theme support (only several EmulationStation themes)
@@ -74,6 +74,8 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Less frequent public updates
 - No OTA updates (has the option but does not work)
 - No community apps
+- No wifi profiles support
+- No wifi WPA3 support
 
 -------------------- 
 ## [knulli alpha (batocera)](https://knulli.org/)
@@ -89,7 +91,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Bluetooth support for both controllers and earphones
 - RetroAchievements
 - Built-in scraper
-- Wifi support (no profiles)
+- Wifi support
 - Full PortMaster support (both 64 and 32 bit)
 - HDMI support
 - Theme support (only several EmulationStation themes)
@@ -110,6 +112,8 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Longer boot times
 - No OTA updates (has the option but does not work)
 - No community apps
+- No wifi profiles support
+- No wifi WPA3 support
 
 -------------------- 
 ## [MinUI](https://github.com/shauninman/MinUI/blob/main/README.md)
@@ -199,7 +203,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - All stock os features & options
 - Theming support
 - RetroAchievements
-- Wifi support (no profiles)
+- Wifi with WPA3 support
 - Bluetooth support (only for controllers)
 - HDMI support
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
@@ -214,6 +218,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Partial PortMaster support
 - No built-in scraping
 - Only English and Chinese
+- No wifi profiles support
 
 -------------------- 
 ## [stock](https://win.anbernic.com/download_data/403.html)
@@ -226,7 +231,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Full support for rg40xx, rg35xx, rg28xx and rg cubexx series
 - Bundled with a lot of games
 - RetroAchievements
-- Wifi support (no profiles)
+- Wifi with WPA3 support
 - Bluetooth support (only for controllers)
 - HDMI support
 - Better sleep functions
@@ -243,6 +248,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - No theming
 - No any connection & file sharing options out of box (syncthing, ftp, ssh etc.)
 - Only English and Chinese
+- No wifi profiles support
   
 -------------------- 
 ## [DesktopOS](https://github.com/game-de-it/rg35xx/releases/tag/RG35xx_H700_DesktopOS_0.2)
