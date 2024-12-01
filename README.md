@@ -146,7 +146,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ## [ROCKNIX](https://github.com/loki666/ROCKNIX/blob/dev/README.md)
 ### Info:
 - Status: WIP
-- Last update: 28/11/2024
+- Last update: 01/12/2024
 - [Releases](https://github.com/loki666/ROCKNIX/releases)
 - [Source](https://github.com/loki666/ROCKNIX/)
 ### Pros:
@@ -169,13 +169,15 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Has a lot of customization options
 - Multilingual
 ### Cons:
+- Has ramdom freezing issues
 - Longer boot times
 - RetroAchievements not work (has the option but does not work)
 - No HDMI support
+- No wifi profiles support
+- No wifi WPA3 support (will fixed)
+- No sleep mode
 - No community themes
 - No community apps
-- No wifi profiles support
-- No wifi WPA3 support (Will fixed)
 
 -------------------- 
 ## [GarlicOS](https://www.patreon.com/blackseraph)
