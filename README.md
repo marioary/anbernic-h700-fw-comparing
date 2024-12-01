@@ -156,7 +156,6 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Built-in scraper
 - Wifi support
 - PortMaster support
-- ? HDMI support
 - Fixed analogue stick cardinal snapping issue
 - More frequent updates
 - Theme support (only several EmulationStation themes)
@@ -172,10 +171,11 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ### Cons:
 - Longer boot times
 - RetroAchievements not work (has the option but does not work)
+- No HDMI support
 - No community themes
 - No community apps
 - No wifi profiles support
-- No wifi WPA3 support
+- No wifi WPA3 support (Will fixed)
 
 -------------------- 
 ## [GarlicOS](https://www.patreon.com/blackseraph)
