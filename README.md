@@ -2,7 +2,7 @@
 
 Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX
 
-*last update: 29/11/2024*
+*last update: 01/12/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
@@ -153,25 +153,29 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Trying to use mainline Linux kernel
 - EmulationStation frontend
 - Bluetooth support for both controllers and earphones
-- ? RetroAchievements
 - Built-in scraper
-- ? Wifi support (no profiles)
+- Wifi support
 - PortMaster support
 - ? HDMI support
-- ? Fixed analogue stick cardinal snapping issue
+- Fixed analogue stick cardinal snapping issue
+- More frequent updates
 - Theme support (only several EmulationStation themes)
 - Samba support for file sharing
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
+- Has VPN
+- Has cloud drive sync
+- Has OTA updates
 - Has ability to do dirty update
 - Has a lot of customization options
 - Multilingual
 ### Cons:
 - Longer boot times
-- Less frequent updates
-- No OTA updates
+- RetroAchievements not work
 - No community themes
 - No community apps
+- No wifi profiles support
+- No wifi WPA3 support
 
 -------------------- 
 ## [GarlicOS](https://www.patreon.com/blackseraph)
