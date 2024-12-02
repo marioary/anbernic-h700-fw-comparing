@@ -153,9 +153,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Trying to use mainline Linux kernel
 - EmulationStation frontend
 - Bluetooth support for both controllers and earphones
-- Built-in scraper
 - Wifi support
-- PortMaster support
 - Fixed analogue stick cardinal snapping issue
 - More frequent updates
 - Theme support (only several EmulationStation themes)
@@ -172,6 +170,8 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Has ramdom freezing issues
 - Longer boot times
 - RetroAchievements not work (has the option but does not work)
+- Built-in scraper (has the option but does not work)
+- PortMaster support
 - No HDMI support
 - No wifi profiles support
 - No wifi WPA3 support (will fixed)
