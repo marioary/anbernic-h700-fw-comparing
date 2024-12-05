@@ -2,7 +2,7 @@
 
 Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX
 
-*last update: 04/12/2024*
+*last update: 05/12/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
@@ -42,17 +42,18 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ## [knulli (batocera)](https://knulli.org/)
 ### Info:
 - Status: Stable
-- Last update: 21/07/2024
+- Last update: 05/12/2024
 - [Releases](https://github.com/knulli-cfw/distribution/releases)
 - [Source](https://github.com/knulli-cfw)
 ### Pros:
-- rg40xx, rg35xx and rg28xx series support
+- rg40xx, rg35xx, rg28xx, rg cubexx series support
 - EmulationStation frontend
-- Bluetooth support for both controllers and earphones (buggy)
-- RetroAchievements (a bit buggy)
+- Fixed analogue stick cardinal snapping issue
+- Bluetooth support for both controllers and earphones
+- RetroAchievements
 - Built-in scraper
 - Wifi support
-- Partial PortMaster support (only 64 bit)
+- Full PortMaster support (both 64 and 32 bit)
 - HDMI support
 - Theme support (only several EmulationStation themes)
 - Samba support for file sharing
@@ -66,12 +67,10 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Overclocking (and underclocking) presets: 480MHz, 720MHz, 1200MHz, 1296MHz, 1416MHz, 1512MHz
 - Has a lot of customization options
 - Security features like setting ssh user password and password protect accessing network shares.
+- More frequent updates
 - Multilingual
 ### Cons:
-- No support for rg cubexx series
-- Has analogue stick cardinal snapping issue
 - Longer boot times
-- Less frequent public updates
 - No OTA updates (has the option but does not work)
 - No community apps
 - No wifi profiles support
