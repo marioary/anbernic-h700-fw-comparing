@@ -67,10 +67,10 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Overclocking (and underclocking) presets: 480MHz, 720MHz, 1200MHz, 1296MHz, 1416MHz, 1512MHz
 - Has a lot of customization options
 - Security features like setting ssh user password and password protect accessing network shares.
-- More frequent updates
 - Multilingual
 ### Cons:
 - Longer boot times
+- Deadly less frequent public updates
 - No OTA updates (has the option but does not work)
 - No community apps
 - No wifi profiles support
