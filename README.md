@@ -2,7 +2,7 @@
 
 Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX
 
-*last update: 06/12/2024*
+*last update: 07/12/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
@@ -125,6 +125,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Full support for rg40xx, rg35xx, rg28xx and rg cubexx series support
 - Fast boot times
 - Minimal interface with minimal setup/options
+- Fixed analogue stick cardinal snapping issue
 - HDMI support
 - More frequent updates
 - Has ability to do dirty update
@@ -133,7 +134,6 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - No wifi
 - No bluetooth
 - No PortMaster support
-- ? Has analogue stick cardinal snapping issue
 - No built-in scraper
 - No OTA updates
 - No theming
