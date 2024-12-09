@@ -2,7 +2,7 @@
 
 Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX
 
-*last update: 08/12/2024*
+*last update: 09/12/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
@@ -118,7 +118,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ## [MinUI](https://github.com/shauninman/MinUI/blob/main/README.md)
 ### Info:
 - Status: Stable
-- Last update: 23/11/2024
+- Last update: 07/12/2024
 - [Releases](https://github.com/shauninman/MinUI/releases)
 - [Source](https://github.com/shauninman/MinUI)
 ### Pros:
