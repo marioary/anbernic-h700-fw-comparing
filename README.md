@@ -2,16 +2,16 @@
 
 Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX
 
-*last update: 10/12/2024*
+*last update: 16/12/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
 - Status: Stable  
-- Last update: 12/10/2024  
+- Last update: 15/12/2024  
 - [Releases](https://dl.muos.dev/RELEASE/)  
 - [Source](https://github.com/MustardOS)  
 ### Pros:
-- rg40xx, rg35xx and rg28xx series support
+- rg40xx, rg35xx, rg28xx and rg cubexx series support
 - Fast boot times
 - Wifi with profiles and WPA3 support
 - Full PortMaster support (both 64 and 32 bit)
@@ -21,6 +21,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Has Archive Manager app (basic app, patch, theme, backup etc. installer)
 - Has a lot of pre-installed themes
 - Has a lot of community themes
+- Searching games support
 - Better battery management
 - Better sleep options/functions
 - Support 2nd card setup
@@ -30,13 +31,11 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Has roadmap for future releases
 - Multilingual
 ### Cons:
-- No rg cubexx support
 - No bluetooth
 - Less frequent public updates
 - No OTA updates
 - Must do clean install when major updates
 - No built-in scraping
-- No searching games
 
 -------------------- 
 ## [knulli (batocera)](https://knulli.org/)
@@ -56,15 +55,15 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Full PortMaster support (both 64 and 32 bit)
 - HDMI support
 - Theme support (only several EmulationStation themes)
+- Has theme store and users also install themes manually
+- Searching games support
 - Samba support for file sharing
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
-- Has theme store and users also install themes manually
 - Supports changing hostname
-- Has ability to do dirty update
 - Can format other SDcards and install Knulli for various other consoles.
 - Powersaving modes
-- Overclocking (and underclocking) presets: 480MHz, 720MHz, 1200MHz, 1296MHz, 1416MHz, 1512MHz
+- Must do clean install when major updates
 - Has a lot of customization options
 - Security features like setting ssh user password and password protect accessing network shares.
 - Multilingual
@@ -94,15 +93,15 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Full PortMaster support (both 64 and 32 bit)
 - HDMI support
 - Theme support (only several EmulationStation themes)
+- Has theme store and users also install themes manually
+- Searching games support
 - Samba support for file sharing
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
-- Has theme store and users also install themes manually
 - Supports changing hostname
-- Has ability to do dirty update
 - Can format other SDcards and install Knulli for various other consoles.
 - Powersaving modes
-- Overclocking (and underclocking) presets: 480MHz, 720MHz, 1200MHz, 1296MHz, 1416MHz, 1512MHz
+- Must do clean install when major updates
 - Has a lot of customization options
 - Security features like setting ssh user password and password protect accessing network shares.
 - More frequent updates
