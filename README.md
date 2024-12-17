@@ -1,17 +1,17 @@
 # Regularly updated list of firmware compare for Anbernic H700 devices
 
-Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX
+Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX, RG34XX
 
-*last update: 16/12/2024*
+*last update: 17/12/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
 - Status: Stable  
 - Last update: 15/12/2024  
-- [Releases](https://dl.muos.dev/RELEASE/)  
+- [Releases](https://muos.dev/release/current)  
 - [Source](https://github.com/MustardOS)  
 ### Pros:
-- rg40xx, rg35xx, rg28xx and rg cubexx series support
+- Full support for rg40xx, rg35xx, rg28xx and rg cubexx series
 - Fast boot times
 - Wifi with profiles and WPA3 support
 - Full PortMaster support (both 64 and 32 bit)
@@ -31,6 +31,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Has roadmap for future releases
 - Multilingual
 ### Cons:
+- No support for rg34xx
 - No bluetooth
 - Less frequent public updates
 - No OTA updates
@@ -45,7 +46,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - [Releases](https://github.com/knulli-cfw/distribution/releases)
 - [Source](https://github.com/knulli-cfw)
 ### Pros:
-- rg40xx, rg35xx, rg28xx, rg cubexx series support
+- Full support for rg40xx, rg35xx, rg28xx and rg cubexx series
 - EmulationStation frontend
 - Fixed analogue stick cardinal snapping issue
 - Bluetooth support for both controllers and earphones
@@ -68,6 +69,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Security features like setting ssh user password and password protect accessing network shares.
 - Multilingual
 ### Cons:
+- No support for rg34xx
 - Longer boot times
 - Deadly less frequent public updates
 - No OTA updates (has the option but does not work)
@@ -79,11 +81,11 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ## [knulli alpha (batocera)](https://knulli.org/)
 ### Info:
 - Status: WIP
-- Last update: 04/12/2024
+- Last update: 16/12/2024
 - Releases: no public releases
 - [Source](https://github.com/knulli-cfw)
 ### Pros:
-- rg40xx, rg35xx, rg28xx, rg cubexx series support
+- Full support for rg40xx, rg35xx, rg28xx, rg cubexx and rg34xx series
 - EmulationStation frontend
 - Fixed analogue stick cardinal snapping issue
 - Bluetooth support for both controllers and earphones
@@ -121,7 +123,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - [Releases](https://github.com/shauninman/MinUI/releases)
 - [Source](https://github.com/shauninman/MinUI)
 ### Pros:
-- Full support for rg40xx, rg35xx, rg28xx and rg cubexx series support
+- Full support for rg40xx, rg35xx, rg28xx and rg cubexx series
 - Fast boot times
 - Minimal interface with minimal setup/options
 - Fixed analogue stick cardinal snapping issue
@@ -129,6 +131,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - More frequent updates
 - Has ability to do dirty update
 ### Cons:
+- No support for rg34xx
 - Less support for emulation of game consoles
 - No wifi
 - No bluetooth
@@ -165,6 +168,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Has a lot of customization options
 - Multilingual
 ### Cons:
+- No support for rg34xx
 - Has ramdom freezing issues
 - Longer boot times
 - RetroAchievements not work (has the option but does not work)
@@ -217,6 +221,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Has a lot of pre-installed apps
 - Has a lot of pre-installed themes
 ### Cons:
+- No support for rg34xx
 - No source code
 - Has analogue stick cardinal snapping issue
 - Partial PortMaster support
@@ -232,7 +237,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - [Releases](https://win.anbernic.com/download_data/403.html)
 - Source: -
 ### Pros:
-- Full support for rg40xx, rg35xx, rg28xx and rg cubexx series
+- Full support for rg40xx, rg35xx, rg28xx, rg cubexx and rg34xx series
 - Bundled with a lot of games
 - RetroAchievements
 - Wifi with WPA3 support
