@@ -13,8 +13,8 @@ cons_matches = re.findall(cons_pattern, features_content, re.DOTALL)
 
 readme_content = "# Feature Comparison\n\n| Info | Pros | Cons |\n|------|------|\n"
 
-for pros, cons in zip(info_matches, pros_matches, cons_matches):
-    readme_content += f"| {pros.strip().replace('\n', '<br>')} | {cons.strip().replace('\n', '<br>')} |\n"
+for info, pros, cons in zip(info_matches, pros_matches, cons_matches):
+    readme_content += f"| {info.strip().replace('\n', '<br>')} | {pros.strip().replace('\n', '<br>')} | {cons.strip().replace('\n', '<br>')} |\n"
 
 with open("README_new.md", "w") as readme_file:
     readme_file.write(readme_content)
