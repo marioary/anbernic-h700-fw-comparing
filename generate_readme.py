@@ -3,7 +3,7 @@ import re
 with open("features.md", "r") as features_file:
     features_content = features_file.read()
 
-details_pattern = r"## Info:\n(.*?)\n\n"
+info_pattern = r"## Info:\n(.*?)\n\n"
 pros_pattern = r"## Pros:\n(.*?)\n\n"
 cons_pattern = r"## Cons:\n(.*?)\n\n"
 
