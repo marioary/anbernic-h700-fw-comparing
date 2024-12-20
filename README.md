@@ -2,7 +2,21 @@
 
 Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX, RG34XX
 
-*last update: 19/12/2024*
+*last update: 20/12/2024*
+
+## Overview
+| OS Name                 | Status       | Last Update | Releases | Source                                       |
+|-------------------------|--------------|-------------|----------|----------------------------------------------|
+| [muOS](#muos)            | Stable       | 15/12/2024  | [Releases](https://muos.dev/release/current) | [GitHub](https://github.com/MustardOS)      |
+| [knulli (batocera)](#knulli-batocera) | Stable       | 04/12/2024  | [Releases](https://github.com/knulli-cfw/distribution/releases) | [GitHub](https://github.com/knulli-cfw) |
+| [knulli alpha (batocera)](#knulli-alpha-batocera) | WIP          | 16/12/2024  | No public releases  | [GitHub](https://github.com/knulli-cfw)     |
+| [MinUI](#minui) | Stable       | 14/12/2024  | [Releases](https://github.com/shauninman/MinUI/releases) | [GitHub](https://github.com/shauninman/MinUI) |
+| [ROCKNIX](#rocknix) | RC (Candidate) | 17/12/2024  | [Releases](https://github.com/loki666/ROCKNIX/releases) | [GitHub](https://github.com/loki666/ROCKNIX/) |
+| [GarlicOS](#garlicos) | WIP          | 04/05/2024  | [Releases](https://github.com/GarlicOS/buildroot/releases/) | [GitHub](https://github.com/GarlicOS)      |
+| [cbepx-me modded stock os](#cbepx-me-modded-stock-os) | Stable       | 23/10/2024  | [Releases](https://github.com/cbepx-me/Anbernic-H700-RG-xx-StockOS-Modification/releases) | - |
+| [stock](#stock) | Stable       | xx/10/2024  | [Releases](https://win.anbernic.com/download_data/403.html) | - |
+| [DesktopOS](#desktopos) | Unknown      | 02/07/2024  | [Releases](https://github.com/game-de-it/rg35xx/releases) | - |
+
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
