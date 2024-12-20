@@ -4,7 +4,6 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 
 *last update: 20/12/2024*
 
-## Overview
 | OS Name                 | Status       | Last Update | Releases | Source                                       |
 |-------------------------|--------------|-------------|----------|----------------------------------------------|
 | [muOS](#muos)            | Stable       | 15/12/2024  | [Releases](https://muos.dev/release/current) | [GitHub](https://github.com/MustardOS)      |
