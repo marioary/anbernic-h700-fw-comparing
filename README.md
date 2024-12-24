@@ -205,11 +205,11 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ## [cbepx-me modded stock os](https://github.com/cbepx-me/Anbernic-H700-RG-xx-StockOS-Modification/blob/main/README.md)
 ### Info:
 - Status: Stable
-- Last update: 23/10/2024
+- Last update: 24/12/2024
 - [Releases](https://github.com/cbepx-me/Anbernic-H700-RG-xx-StockOS-Modification/releases)
 - Source: -
 ### Pros:
-- Full support for rg40xx, rg35xx, rg28xx and rg cubexx series
+- Full support for rg40xx, rg35xx, rg28xx, rg cubexx and rg34xx series
 - More frequent updates
 - All stock os features & options
 - Theming support
@@ -225,7 +225,6 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Has a lot of pre-installed apps
 - Has a lot of pre-installed themes
 ### Cons:
-- No support for rg34xx
 - No source code
 - Has analogue stick cardinal snapping issue
 - Partial PortMaster support
