@@ -2,7 +2,7 @@
 
 Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX, RG34XX
 
-*last update: 24/12/2024*
+*last update: 25/12/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
@@ -217,6 +217,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Wifi with WPA3 support
 - Bluetooth support (only for controllers)
 - HDMI support
+- Fixed analogue stick cardinal snapping issue
 - Support for RGB lights
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
 - Better sleep functions
@@ -226,7 +227,6 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Has a lot of pre-installed themes
 ### Cons:
 - No source code
-- Has analogue stick cardinal snapping issue
 - Partial PortMaster support
 - No built-in scraping
 - Only English and Chinese
