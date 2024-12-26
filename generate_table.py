@@ -58,13 +58,13 @@ def create_markdown_table_with_general_info(general_info, firmware_data, output_
 
         # Tablo başlığı
         file.write("# Firmware Comparison Table\n\n")
-        file.write("| Firmware | Info | Pros | Cons |\n")
-        file.write("|:---------|:-----|:-----|:-----|\n")  # Ortalanmış sütunlar
+        file.write("| Firmware                | Info                                                                 | Pros                                                                | Cons                                    |\n")
+        file.write("|:------------------------|:--------------------------------------------------------------------|:--------------------------------------------------------------------|:---------------------------------------|\n")  # Ortalanmış sütunlar
 
         # Tablo satırları
         for item in firmware_data:
             file.write(
-                f"| {item['name']} | {item['info'].strip()} | {item['pros'].strip()} | {item['cons'].strip()} |\n"
+                f"| {item['name']:<24} | {item['info'].strip():<70} | {item['pros'].strip():<70} | {item['cons'].strip():<40} |\n"
             )
 
 
