@@ -4,6 +4,9 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 
 *last update: 26/12/2024*
 
+[NORMAL VIEW](https://github.com/symbuzzer/anbernic-h700-fw-comparing/blob/main/README.md) / [TABLE VIEW](https://github.com/symbuzzer/anbernic-h700-fw-comparing/blob/main/README_new.md)
+-------------------- 
+
 ## [muOS](https://muos.dev/)  
 ### Info:  
 - Status: Stable  
