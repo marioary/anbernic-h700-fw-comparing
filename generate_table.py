@@ -4,26 +4,36 @@ def parse_readme(input_file):
     with open(input_file, 'r', encoding='utf-8') as file:
         content = file.read()
 
-    sections = re.split(r"-{20,}", content)
+    sections = re.split(r"\n-{20,}\n", content)  # Bölümleri ayır
     firmware_data = []
 
     for section in sections:
         lines = section.strip().splitlines()
-        if len(lines) < 3:  # Skip small sections
+        if not lines or len(lines) < 2:
             continue
 
-        header = lines[0].strip()
-        info_lines = [line.strip() for line in lines if line.startswith("### Info:")]
-        pros_lines = [line.strip() for line in lines if line.startswith("### Pros:")]
-        cons_lines = [line.strip() for line in lines if line.startswith("### Cons:")]
+        # Firmware adı
+        name_match = re.search(r"## \[(.+?)\]\((.+?)\)", section)
+        name = name_match.group(1) if name_match else "Unknown"
+        link = name_match.group(2) if name_match else "#"
+
+        # Info, Pros, ve Cons bölümleri
+        info = extract_section(section, "### Info:")
+        pros = extract_section(section, "### Pros:")
+        cons = extract_section(section, "### Cons:")
 
         firmware_data.append({
-            "name": header,
-            "info": "\n".join(info_lines),
-            "pros": "\n".join(pros_lines),
-            "cons": "\n".join(cons_lines),
+            "name": f"[{name}]({link})",
+            "info": info,
+            "pros": pros,
+            "cons": cons,
         })
     return firmware_data
+
+
+def extract_section(content, section_header):
+    match = re.search(rf"{section_header}([\s\S]*?)(\n### |\Z)", content)
+    return match.group(1).strip() if match else "N/A"
 
 
 def create_markdown_table(data, output_file):
