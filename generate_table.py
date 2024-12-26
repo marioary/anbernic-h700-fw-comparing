@@ -1,4 +1,8 @@
+import re
+
+
 def parse_readme_by_lines(input_file):
+    """README dosyasını satır satır işleyerek firmware bilgilerini ayıklar."""
     with open(input_file, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
