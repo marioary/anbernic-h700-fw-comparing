@@ -1,6 +1,5 @@
 import re
 
-
 def parse_readme_by_lines(input_file):
     """README dosyasını satır satır işleyerek firmware bilgilerini ayıklar."""
     with open(input_file, 'r', encoding='utf-8') as file:
@@ -29,6 +28,8 @@ def parse_readme_by_lines(input_file):
             section = 'pros'
         elif line.startswith("### Cons:"):
             section = 'cons'
+        elif line.startswith("--------------------"):  # Çizgili satırı yok say
+            section = None
         elif section and line:  # Aktif bölümde içerik varsa ekle
             current_firmware[section] += line + "<br>"
 
@@ -43,7 +44,7 @@ def create_markdown_table_from_lines(data, output_file):
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write("# Firmware Comparison Table\n\n")
         file.write("| Firmware | Info | Pros | Cons |\n")
-        file.write("|----------|------|------|------|\n")
+        file.write("|:---------|:-----|:-----|:-----|\n")  # Ortalanmış sütunlar
 
         for item in data:
             file.write(
