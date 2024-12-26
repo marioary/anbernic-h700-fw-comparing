@@ -1,7 +1,6 @@
 import re
 
 def parse_readme_by_lines(input_file):
-    """README dosyasını satır satır işleyerek firmware bilgilerini ayıklar."""
     with open(input_file, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
@@ -9,23 +8,22 @@ def parse_readme_by_lines(input_file):
     general_info = []
     current_firmware = {}
     section = None
-    capturing_general_info = True  # Genel bilgileri toplamak için flag
+    capturing_general_info = True
 
     for line in lines:
         line = line.strip()
         if capturing_general_info:
-            if line.startswith("## ["):  # Firmware bilgileri başladığında genel bilgileri durdur
+            if line.startswith("## ["):
                 capturing_general_info = False
             else:
                 general_info.append(line)
                 continue
 
-        if line.startswith("## [") and "](" in line:  # Firmware başlığı
-            if current_firmware:  # Önceki firmware'yi kaydet
+        if line.startswith("## [") and "](" in line:
+            if current_firmware:
                 firmware_data.append(current_firmware)
                 current_firmware = {}
 
-            # Firmware adı ve bağlantısı
             name, link = re.findall(r"\[(.+?)\]\((.+?)\)", line)[0]
             current_firmware['name'] = f"[{name}]({link})"
             current_firmware['info'] = ""
@@ -37,12 +35,12 @@ def parse_readme_by_lines(input_file):
             section = 'pros'
         elif line.startswith("### Cons:"):
             section = 'cons'
-        elif line.startswith("--------------------"):  # Çizgili satırı yok say
+        elif line.startswith("--------------------"):
             section = None
-        elif section and line:  # Aktif bölümde içerik varsa ekle
+        elif section and line:
             current_firmware[section] += line + "<br>"
 
-    if current_firmware:  # Son firmware'yi ekle
+    if current_firmware:
         firmware_data.append(current_firmware)
 
     return general_info, firmware_data
@@ -51,13 +49,10 @@ def parse_readme_by_lines(input_file):
 def create_markdown_table_with_general_info(general_info, firmware_data, output_file):
     """Firmware bilgileriyle Markdown tablosu oluşturur ve genel bilgileri ekler."""
     with open(output_file, 'w', encoding='utf-8') as file:
-        # Genel bilgileri yaz
         for line in general_info:
             file.write(line + "\n")
         file.write("\n")
 
-        # Tablo başlığı
-        file.write("# Firmware Comparison Table\n\n")
         file.write("| Firmware                | Info                                                                 | Pros                                                                | Cons                                    |\n")
         file.write("|:------------------------|:--------------------------------------------------------------------|:--------------------------------------------------------------------|:---------------------------------------|\n")  # Ortalanmış sütunlar
 
@@ -69,7 +64,7 @@ def create_markdown_table_with_general_info(general_info, firmware_data, output_
 
 
 if __name__ == "__main__":
-    input_readme = "README.md"  # Giriş dosyası adı
-    output_readme = "README_new.md"  # Çıkış dosyası adı
+    input_readme = "README.md"
+    output_readme = "README_new.md"
     general_info, firmware_data = parse_readme_by_lines(input_readme)
     create_markdown_table_with_general_info(general_info, firmware_data, output_readme)
