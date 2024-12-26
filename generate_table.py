@@ -19,9 +19,9 @@ def parse_readme(input_file):
         link = name_match.group(2) if name_match else "#"
 
         # Info, Pros, ve Cons bölümleri
-        info = format_section(extract_section(section, "### Info:"))
-        pros = format_section(extract_section(section, "### Pros:"))
-        cons = format_section(extract_section(section, "### Cons:"))
+        info = clean_text(extract_section(section, "### Info:"))
+        pros = clean_text(extract_section(section, "### Pros:"))
+        cons = clean_text(extract_section(section, "### Cons:"))
 
         firmware_data.append({
             "name": f"[{name}]({link})",
@@ -37,11 +37,11 @@ def extract_section(content, section_header):
     return match.group(1).strip() if match else "N/A"
 
 
-def format_section(section_content):
-    """Her satırı `<br>` ile birleştirerek Markdown tablolarında düzgün gösterim sağlanır."""
+def clean_text(section_content):
+    """Markdown tablolarında satırların doğru şekilde görüntülenmesi için metni işler."""
     if section_content == "N/A":
         return section_content
-    return section_content.replace("\n", "<br>")
+    return section_content.replace("\n", "<br>").replace("  ", " ")
 
 
 def create_markdown_table(data, output_file):
