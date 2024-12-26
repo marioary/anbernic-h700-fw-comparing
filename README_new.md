@@ -2,34 +2,4 @@
 
 | Firmware | Info | Pros | Cons |
 |----------|------|------|------|
-| [muOS](https://muos.dev/) | - Status: Stable  
-- Last update: 15/12/2024  
-- [Releases](https://muos.dev/release/current)  
-- [Source](https://github.com/MustardOS) | - Full support for rg40xx, rg35xx, rg28xx and rg cubexx series
-- Fast boot times
-- Wifi with profiles and WPA3 support
-- Full PortMaster support (both 64 and 32 bit)
-- RetroAchievements
-- HDMI support
-- Fixed analogue stick cardinal snapping issue
-- Support for RGB lights
-- Has Archive Manager app (basic app, patch, theme, backup etc. installer)
-- Has a lot of pre-installed themes
-- Has a lot of community themes
-- Searching games support
-- Better battery management
-- Better sleep options/functions
-- Support 2nd card setup
-- Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
-- Has a lot of pre-installed apps
-- Has a lot of community apps on Discord
-- Has roadmap for future releases
-- Multilingual | - No support for rg34xx
-- No bluetooth
-- Less frequent public updates
-- No OTA updates
-- Must do clean install when major updates
-- No built-in scraping
-
--------------------- 
-## [knulli (batocera)](https://knulli.org/) |
+| [muOS](https://muos.dev/) | - Status: Stable  <br>- Last update: 15/12/2024  <br>- [Releases](https://muos.dev/release/current)  <br>- [Source](https://github.com/MustardOS) | - Full support for rg40xx, rg35xx, rg28xx and rg cubexx series<br>- Fast boot times<br>- Wifi with profiles and WPA3 support<br>- Full PortMaster support (both 64 and 32 bit)<br>- RetroAchievements<br>- HDMI support<br>- Fixed analogue stick cardinal snapping issue<br>- Support for RGB lights<br>- Has Archive Manager app (basic app, patch, theme, backup etc. installer)<br>- Has a lot of pre-installed themes<br>- Has a lot of community themes<br>- Searching games support<br>- Better battery management<br>- Better sleep options/functions<br>- Support 2nd card setup<br>- Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)<br>- Has a lot of pre-installed apps<br>- Has a lot of community apps on Discord<br>- Has roadmap for future releases<br>- Multilingual | - No support for rg34xx<br>- No bluetooth<br>- Less frequent public updates<br>- No OTA updates<br>- Must do clean install when major updates<br>- No built-in scraping<br><br>-------------------- <br>## [knulli (batocera)](https://knulli.org/) |
