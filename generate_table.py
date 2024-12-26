@@ -1,5 +1,6 @@
 import re
 
+
 def parse_readme(input_file):
     with open(input_file, 'r', encoding='utf-8') as file:
         content = file.read()
@@ -18,9 +19,9 @@ def parse_readme(input_file):
         link = name_match.group(2) if name_match else "#"
 
         # Info, Pros, ve Cons bölümleri
-        info = extract_section(section, "### Info:")
-        pros = extract_section(section, "### Pros:")
-        cons = extract_section(section, "### Cons:")
+        info = format_section(extract_section(section, "### Info:"))
+        pros = format_section(extract_section(section, "### Pros:"))
+        cons = format_section(extract_section(section, "### Cons:"))
 
         firmware_data.append({
             "name": f"[{name}]({link})",
@@ -36,6 +37,13 @@ def extract_section(content, section_header):
     return match.group(1).strip() if match else "N/A"
 
 
+def format_section(section_content):
+    """Her satırı `<br>` ile birleştirerek Markdown tablolarında düzgün gösterim sağlanır."""
+    if section_content == "N/A":
+        return section_content
+    return section_content.replace("\n", "<br>")
+
+
 def create_markdown_table(data, output_file):
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write("# Firmware Comparison Table\n\n")
@@ -43,7 +51,9 @@ def create_markdown_table(data, output_file):
         file.write("|----------|------|------|------|\n")
 
         for item in data:
-            file.write(f"| {item['name']} | {item['info']} | {item['pros']} | {item['cons']} |\n")
+            file.write(
+                f"| {item['name']} | {item['info']} | {item['pros']} | {item['cons']} |\n"
+            )
 
 
 if __name__ == "__main__":
