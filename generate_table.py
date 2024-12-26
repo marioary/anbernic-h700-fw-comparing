@@ -1,54 +1,40 @@
-import re
-
-
-def parse_readme(input_file):
+def parse_readme_by_lines(input_file):
     with open(input_file, 'r', encoding='utf-8') as file:
-        content = file.read()
+        lines = file.readlines()
 
-    sections = re.split(r"\n-{20,}\n", content)  # Bölümleri ayır
     firmware_data = []
+    current_firmware = {}
+    section = None
 
-    for section in sections:
-        lines = section.strip().splitlines()
-        if not lines or len(lines) < 2:
-            continue
+    for line in lines:
+        line = line.strip()
+        if line.startswith("## [") and "](" in line:  # Firmware başlığı
+            if current_firmware:  # Önceki firmware'yi kaydet
+                firmware_data.append(current_firmware)
+                current_firmware = {}
 
-        # Firmware adı ve bağlantısı
-        name_match = re.search(r"## \[(.+?)\]\((.+?)\)", section)
-        if name_match:
-            name = name_match.group(1)
-            link = name_match.group(2)
-        else:
-            continue  # Geçersiz bölüm
+            # Firmware adı ve bağlantısı
+            name, link = re.findall(r"\[(.+?)\]\((.+?)\)", line)[0]
+            current_firmware['name'] = f"[{name}]({link})"
+            current_firmware['info'] = ""
+            current_firmware['pros'] = ""
+            current_firmware['cons'] = ""
+        elif line.startswith("### Info:"):
+            section = 'info'
+        elif line.startswith("### Pros:"):
+            section = 'pros'
+        elif line.startswith("### Cons:"):
+            section = 'cons'
+        elif section and line:  # Aktif bölümde içerik varsa ekle
+            current_firmware[section] += line + "<br>"
 
-        # Info, Pros, ve Cons bölümleri
-        info = clean_text(extract_section(section, "### Info:"))
-        pros = clean_text(extract_section(section, "### Pros:"))
-        cons = clean_text(extract_section(section, "### Cons:"))
+    if current_firmware:  # Son firmware'yi ekle
+        firmware_data.append(current_firmware)
 
-        firmware_data.append({
-            "name": f"[{name}]({link})",
-            "info": info,
-            "pros": pros,
-            "cons": cons,
-        })
     return firmware_data
 
 
-def extract_section(content, section_header):
-    """Belirli bir başlık altındaki içeriği çıkarır."""
-    match = re.search(rf"{section_header}([\s\S]*?)(\n### |\Z)", content)
-    return match.group(1).strip() if match else "N/A"
-
-
-def clean_text(section_content):
-    """Markdown tablosu için metni işler."""
-    if section_content == "N/A":
-        return "N/A"
-    return section_content.replace("\n", "<br>").strip()
-
-
-def create_markdown_table(data, output_file):
+def create_markdown_table_from_lines(data, output_file):
     """Firmware bilgileriyle Markdown tablosu oluşturur."""
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write("# Firmware Comparison Table\n\n")
@@ -57,12 +43,12 @@ def create_markdown_table(data, output_file):
 
         for item in data:
             file.write(
-                f"| {item['name']} | {item['info']} | {item['pros']} | {item['cons']} |\n"
+                f"| {item['name']} | {item['info'].strip()} | {item['pros'].strip()} | {item['cons'].strip()} |\n"
             )
 
 
 if __name__ == "__main__":
     input_readme = "README.md"  # Giriş dosyası adı
     output_readme = "README_new.md"  # Çıkış dosyası adı
-    firmware_data = parse_readme(input_readme)
-    create_markdown_table(firmware_data, output_readme)
+    firmware_data = parse_readme_by_lines(input_readme)
+    create_markdown_table_from_lines(firmware_data, output_readme)
