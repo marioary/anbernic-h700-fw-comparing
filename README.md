@@ -2,7 +2,7 @@
 
 Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX, RG34XX
 
-*last update: 25/12/2024*
+*last update: 26/12/2024*
 
 ## [muOS](https://muos.dev/)  
 ### Info:  
@@ -270,5 +270,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Last update: 02/07/2024
 - [Releases](https://github.com/game-de-it/rg35xx/releases) *(You should look DesktopOS from there)*
 - Source: -
-
+### Pros:
+*There is no information about this cfw for now*
+### Cons:
 *There is no information about this cfw for now*
