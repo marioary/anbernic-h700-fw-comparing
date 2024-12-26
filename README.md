@@ -195,7 +195,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Able to install as 2nd os with stock os
 - Able to boot with stock os
 - ?
-### Cons
+### Cons:
 - Very slow development
 - Less frequent updates
 - Has known issues
