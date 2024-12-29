@@ -157,6 +157,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - [Releases](https://github.com/loki666/ROCKNIX/releases)
 - [Source](https://github.com/loki666/ROCKNIX/)
 ### Pros:
+- Full support for rg40xx, rg35xx, rg28xx, rg cubexx and rg34xx series
 - Trying to use mainline Linux kernel
 - EmulationStation frontend
 - Bluetooth support for both controllers and earphones
@@ -176,15 +177,13 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Has a lot of customization options
 - Multilingual
 ### Cons:
-- No support for rg34xx
 - Has ramdom freezing issues
 - Longer boot times
-- PortMaster support
+- No PortMaster support
 - No HDMI support
 - No wifi profiles support
 - No wifi WPA3 support (will fixed)
-- No sleep mode
-- No community themes
+- ? No sleep mode
 - No community apps
 
 -------------------- 
