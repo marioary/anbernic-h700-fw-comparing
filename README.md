@@ -69,7 +69,6 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Supports changing hostname
 - Can format other SDcards and install Knulli for various other consoles.
 - Powersaving modes
-- Must do clean install when major updates
 - Has a lot of customization options
 - Security features like setting ssh user password and password protect accessing network shares.
 - Multilingual
@@ -78,6 +77,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Longer boot times
 - Deadly less frequent public updates
 - No OTA updates (has the option but does not work)
+- Must do clean install when major updates
 - No community apps
 - No wifi WPA3 support
 
@@ -108,7 +108,6 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Supports changing hostname
 - Can format other SDcards and install Knulli for various other consoles.
 - Powersaving modes
-- Must do clean install when major updates
 - Has a lot of customization options
 - Security features like setting ssh user password and password protect accessing network shares.
 - More frequent updates
@@ -116,6 +115,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ### Cons:
 - Longer boot times
 - No OTA updates (has the option but does not work)
+- Must do clean install when major updates
 - No community apps
 - No wifi WPA3 support
 
@@ -142,6 +142,8 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - No PortMaster support
 - No built-in scraper
 - No OTA updates
+- No RGB support
+- No searching games
 - No theming
 - No community apps
 - ? No support for 2nd card setup
