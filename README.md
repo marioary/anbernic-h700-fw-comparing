@@ -2,7 +2,7 @@
 
 Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX, RG34XX
 
-*last update: 27/12/2024*
+*last update: 29/12/2024*
 
 [NORMAL VIEW](https://github.com/symbuzzer/anbernic-h700-fw-comparing/blob/main/README.md) / [TABLE VIEW](https://github.com/symbuzzer/anbernic-h700-fw-comparing/blob/main/README_new.md)
 -------------------- 
@@ -60,7 +60,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Full PortMaster support (both 64 and 32 bit)
 - HDMI support
 - Support for RGB lights
-- Theme support (only several EmulationStation themes)
+- Theme support
 - Has theme store and users also install themes manually
 - Searching games support
 - Samba support for file sharing
@@ -86,7 +86,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ## [knulli alpha (batocera)](https://knulli.org/)
 ### Info:
 - Status: WIP
-- Last update: 16/12/2024
+- Last update: 29/12/2024
 - Releases: no public releases
 - [Source](https://github.com/knulli-cfw)
 ### Pros:
@@ -100,7 +100,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Full PortMaster support (both 64 and 32 bit)
 - HDMI support
 - Support for RGB lights
-- Theme support (only several EmulationStation themes)
+- Theme support
 - Has theme store and users also install themes manually
 - Searching games support
 - Samba support for file sharing
@@ -125,11 +125,11 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ## [MinUI](https://github.com/shauninman/MinUI/blob/main/README.md)
 ### Info:
 - Status: Stable
-- Last update: 14/12/2024
+- Last update: 27/12/2024
 - [Releases](https://github.com/shauninman/MinUI/releases)
 - [Source](https://github.com/shauninman/MinUI)
 ### Pros:
-- Full support for rg40xx, rg35xx, rg28xx and rg cubexx series
+- Full support for rg40xx, rg35xx, rg28xx, rg cubexx and rg34xx series
 - Fast boot times
 - Minimal interface with minimal setup/options
 - Fixed analogue stick cardinal snapping issue
@@ -165,7 +165,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Built-in scraper
 - Fixed analogue stick cardinal snapping issue
 - More frequent updates
-- Theme support (only several EmulationStation themes)
+- Theme support
 - Samba support for file sharing
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
