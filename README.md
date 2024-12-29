@@ -54,7 +54,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - EmulationStation frontend
 - Fixed analogue stick cardinal snapping issue
 - Bluetooth support for both controllers and earphones
-- Wifi support
+- Wifi with profiles support (up to 3 profiles)
 - RetroAchievements
 - Built-in scraper
 - Full PortMaster support (both 64 and 32 bit)
@@ -79,7 +79,6 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Deadly less frequent public updates
 - No OTA updates (has the option but does not work)
 - No community apps
-- No wifi profiles support
 - No wifi WPA3 support
 
 -------------------- 
@@ -94,7 +93,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - EmulationStation frontend
 - Fixed analogue stick cardinal snapping issue
 - Bluetooth support for both controllers and earphones
-- Wifi support
+- Wifi with profiles support (up to 3 profiles)
 - RetroAchievements
 - Built-in scraper
 - Full PortMaster support (both 64 and 32 bit)
@@ -118,7 +117,6 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Longer boot times
 - No OTA updates (has the option but does not work)
 - No community apps
-- No wifi profiles support
 - No wifi WPA3 support
 
 -------------------- 
