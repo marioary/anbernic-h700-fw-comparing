@@ -2,7 +2,7 @@
 
 Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG40XX H, RG 40XXV, RG CUBEXX, RG34XX
 
-*last update: 30/12/2024*
+*last update: 31/12/2024*
 
 [NORMAL VIEW](https://github.com/symbuzzer/anbernic-h700-fw-comparing/blob/main/README.md) / [TABLE VIEW](https://github.com/symbuzzer/anbernic-h700-fw-comparing/blob/main/README_new.md)
 -------------------- 
@@ -10,11 +10,11 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 ## [muOS](https://muos.dev/)  
 ### Info:  
 - Status: Stable  
-- Last update: 15/12/2024  
+- Last update: 31/12/2024  
 - [Releases](https://muos.dev/release/current)  
 - [Source](https://github.com/MustardOS)  
 ### Pros:
-- Full support for rg40xx, rg35xx, rg28xx and rg cubexx series
+- Full support for rg40xx, rg35xx, rg28xx, rg cubexx and rg34xx series
 - Fast boot times
 - Wifi with profiles and WPA3 support
 - Full PortMaster support (both 64 and 32 bit)
@@ -23,6 +23,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Fixed analogue stick cardinal snapping issue
 - Support for RGB lights
 - Has Archive Manager app (basic app, patch, theme, backup etc. installer)
+- Has a lot of pre-installed apps
 - Has a lot of pre-installed themes
 - Has a lot of community themes
 - Searching games support
@@ -30,12 +31,10 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - Better sleep options/functions
 - Support 2nd card setup
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
-- Has a lot of pre-installed apps
 - Has a lot of community apps on Discord
 - Has roadmap for future releases
 - Multilingual
 ### Cons:
-- No support for rg34xx
 - No bluetooth
 - Less frequent public updates
 - No OTA updates
@@ -220,6 +219,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - HDMI support
 - Fixed analogue stick cardinal snapping issue
 - Support for RGB lights
+- Has a lot of pre-installed apps
 - Theming support
 - Has a lot of connection & file sharing options (syncthing, ftp, ssh etc.)
 - Better sleep functions
@@ -249,6 +249,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX (2024) RG
 - RetroAchievements
 - HDMI support
 - Support for RGB lights
+- Has a lot of pre-installed apps
 - Better sleep functions
 - Support 2nd card setup
 - Has a lot of pre-installed apps
